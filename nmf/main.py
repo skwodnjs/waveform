@@ -23,8 +23,8 @@ J = 4
 model = NMF(
     n_components=J,
     init="nndsvda",
-    solver="mu",
-    beta_loss="kullback-leibler",
+    solver="mu",                    # NMF-DIV
+    beta_loss="kullback-leibler",   # NMF-DIV
     max_iter=1000,
     random_state=0
 )
