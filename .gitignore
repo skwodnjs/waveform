@@ -1,4 +1,6 @@
-.venv
+.venv/
+__pycache__/
+.DS_Store/
 video.mp4
 music.mp3
 component_*.wav
